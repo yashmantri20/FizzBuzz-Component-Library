@@ -1,7 +1,7 @@
 {
-  "name": "react-test-demo-component",
-  "version": "1.6.0",
-  "description": "",
+  "name": "fizzbuzz-ui",
+  "version": "1.0.0",
+  "description": "It is a component library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "build-lib": "rollup -c"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yash Mantri",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.14",

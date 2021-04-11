@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+
+.button {
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.button:focus {
+  outline: none;
+}
+.button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.button:disabled:hover {
+  opacity: 0.4;
+}
+
+.primary-button {
+  background: #2b6cb0;
+  color: #fff;
+}
+.primary-button:hover {
+  background: #2b6cb0;
+  opacity: 0.9;
+}
+
+.outline-button {
+  color: #2b6cb0;
+  background: none !important;
+  border: 1px solid currentColor;
+}
+.outline-button:hover {
+  background: #2b6bb00a !important;
+  color: #2b6cb0;
+  border: 1px solid currentColor;
+}
+
+.ghost-button {
+  color: #2b6cb0;
+}
+.ghost-button:hover {
+  background: #2b6bb00a;
+}
+
+.link-button {
+  color: #2b6cb0;
+}
+.link-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.link-button:hover {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+.xs-button {
+  font-size: 12px;
+  padding: 4px;
+}
+.sm-button {
+  font-size: 16px;
+  padding: 5px 6px;
+}
+.md-button {
+  font-size: 18px;
+  padding: 6px 8px;
+}
+.lg-button {
+  font-size: 22px;
+  padding: 7px 10px;
+}
+
+.sm-round {
+  border-radius: 10px;
+}
+.lg-round {
+  border-radius: 15px;
+}
+.md-round {
+  border-radius: 20px;
+}
+.full-round {
+  border-radius: 50%;
+  padding: 0.75rem;
+}
+
+.icon-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px !important;
+}
+
+.icon-button span {
+  width: 100%;
+}
+
+.icon-button :nth-child(2) {
+  margin: 0 0 0 0.5rem;
+}
