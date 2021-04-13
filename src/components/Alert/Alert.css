@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat';
+}
+
+.alert-box {
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 0 0 1rem;
+  margin: 0.5rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.alert-title {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.alert-box > * {
+  margin-right: 0.5rem;
+}
+
+.error-alert-solid {
+  background: rgb(254, 215, 215);
+  color: black;
+}
+.info-alert-solid {
+  background: rgb(190, 227, 248);
+  color: black;
+}
+.warning-alert-solid {
+  background: rgb(254, 235, 200);
+  color: black;
+}
+.success-alert-solid {
+  background: rgb(198, 246, 213);
+  color: black;
+}
+
+.error-alert-left-accent {
+  background: rgb(254, 215, 215);
+  border-left: 4px solid #e53e3e;
+}
+.info-alert-left-accent {
+  background: rgb(190, 227, 248);
+  border-left: 4px solid #3182ce;
+}
+.warning-alert-left-accent {
+  background: rgb(254, 235, 200);
+  border-left: 4px solid #dd6b20;
+}
+.success-alert-left-accent {
+  background: rgb(198, 246, 213);
+  border-left: 4px solid #38a169;
+}
+
+.error-alert-top-accent {
+  background: rgb(254, 215, 215);
+  border-top: 4px solid #e53e3e;
+}
+.info-alert-top-accent {
+  background: rgb(190, 227, 248);
+  border-top: 4px solid #3182ce;
+}
+.warning-alert-top-accent {
+  background: rgb(254, 235, 200);
+  border-top: 4px solid #dd6b20;
+}
+.success-alert-top-accent {
+  background: rgb(198, 246, 213);
+  border-top: 4px solid #38a169;
+}

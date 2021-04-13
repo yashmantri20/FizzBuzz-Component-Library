@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat";
+}
+
+:root {
+  --xs-font-size: 16px;
+  --sm-font-size: 20px;
+  --md-font-size: 24px;
+  --lg-font-size: 28px;
+  --xl-font-size: 32px;
+  --xs-size: 2rem;
+  --sm-size: 2.5rem;
+  --md-size: 3rem;
+  --lg-size: 3.5rem;
+  --xl-size: 4rem;
+}
+
+.image-avatar {
+  border-radius: 50%;
+  align-self: center;
+}
+
+.alphabet-avatar {
+  border-radius: 50%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  background-color: #2b6cb0;
+}
+
+.default-avatar {
+  border-radius: 50%;
+  align-self: center;
+}
+
+.xs-avatar {
+  width: var(--xs-size);
+  height: var(--xs-size);
+}
+.sm-avatar {
+  width: var(--sm-size);
+  height: var(--sm-size);
+}
+.md-avatar {
+  width: var(--md-size);
+  height: var(--md-size);
+}
+.lg-avatar {
+  width: var(--lg-size);
+  height: var(--lg-size);
+}
+.xl-avatar {
+  width: var(--xl-size);
+  height: var(--xl-size);
+}
+
+.xs-alpha-avatar {
+  width: var(--xs-size);
+  height: var(--xs-size);
+  font-size: var(--xs-font-size);
+}
+.sm-alpha-avatar {
+  width: var(--sm-size);
+  height: var(--sm-size);
+  font-size: var(--sm-font-size);
+}
+.md-alpha-avatar {
+  width: var(--md-size);
+  height: var(--md-size);
+  font-size: var(--md-font-size);
+}
+.lg-alpha-avatar {
+  width: var(--lg-size);
+  height: var(--lg-size);
+  font-size: var(--lg-font-size);
+}
+.xl-alpha-avatar {
+  width: var(--xl-size);
+  height: var(--xl-size);
+  font-size: var(--xl-font-size);
+}

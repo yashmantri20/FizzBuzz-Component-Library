@@ -1,15 +1,19 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import { Button } from "../components/Button/Button";
-import {Image} from "../components/Image/Image";
+import { Image } from "../components/Image/Image";
+import { Alert } from "../components/Alert/Alert";
+import { Avatar } from "../components/Avatar/Avatar";
 
 const stories = storiesOf("Library", module);
 
 stories.add("FizzBuzz", () => {
   return (
     <div>
-      <Image size="lg" src="https://picsum.photos/200/300" style={{cursor: "pointer"}} onClick={() => console.log("Clicked")}/>
-      <Image style={{width:"250px", height:"250px"}}/>
+      <Avatar name="Yash" style={{ width: '50px', height: '50px', backgroundColor: "green" }} />
+      <Alert />
+      <Image size="lg" src="https://picsum.photos/200/300" style={{ cursor: "pointer" }} onClick={() => console.log("Clicked")} />
+      <Image style={{ width: "250px", height: "250px" }} />
       <Button
         variant="primary"
         colorScheme="teal"
