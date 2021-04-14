@@ -30,7 +30,7 @@ export const Avatar = ({ src, name, size, bgColor, ...rest }) => {
         />
       )}
       {imageOrName === 'Alphabet' && (
-        <p style={style} className={`alphabet-avatar ${size}-alpha-avatar`}>
+        <p {...rest} style={style} className={`alphabet-avatar ${size}-alpha-avatar`}>
           {name[0]}
         </p>
       )}

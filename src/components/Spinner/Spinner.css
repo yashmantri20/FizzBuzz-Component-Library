@@ -1,0 +1,38 @@
+.loader {
+  animation: loader 0.8s infinite linear;
+  border: 0.14rem solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  color: black;
+}
+
+.sm-loader {
+  width: 20px;
+  height: 20px;
+}
+
+.md-loader {
+  width: 24px;
+  height: 24px;
+}
+
+.lg-loader {
+  width: 28px;
+  height: 28px;
+}
+
+.xl-loader {
+  width: 32px;
+  height: 32px;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

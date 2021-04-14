@@ -4,13 +4,17 @@ import { Button } from "../components/Button/Button";
 import { Image } from "../components/Image/Image";
 import { Alert } from "../components/Alert/Alert";
 import { Avatar } from "../components/Avatar/Avatar";
+import { Spinner } from "../components/Spinner/Spinner";
+import { Progress } from "../components/Progress/Progess";
 
 const stories = storiesOf("Library", module);
 
 stories.add("FizzBuzz", () => {
   return (
     <div>
-      <Avatar name="Yash" style={{ width: '50px', height: '50px', backgroundColor: "green" }} />
+      <Spinner size='lg' style={{ width: '40px', height: '40px', color: 'red' }} />
+      <Progress />
+      <Avatar name="Yash" style={{ width: '50px', height: '50px', backgroundColor: "green", cursor: 'pointer' }} />
       <Alert />
       <Image size="lg" src="https://picsum.photos/200/300" style={{ cursor: "pointer" }} onClick={() => console.log("Clicked")} />
       <Image style={{ width: "250px", height: "250px" }} />

@@ -1,0 +1,26 @@
+.progress-bar {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #edf2f7;
+}
+
+.progress-primary {
+  height: 15px;
+  border-radius: 10px;
+}
+
+.progress-striped {
+  height: 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.3) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.32) 50%,
+    rgba(255, 255, 255, 0.3) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 30px 30px;
+}
