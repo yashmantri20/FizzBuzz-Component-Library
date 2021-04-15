@@ -1,0 +1,22 @@
+.topButton {
+  visibility: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(38, 38, 104);
+  color: white;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topButton:hover {
+  transition: all ease-in-out 0.2s;
+}
