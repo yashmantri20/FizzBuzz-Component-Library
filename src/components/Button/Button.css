@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 .button {
@@ -83,10 +83,10 @@
 .sm-round {
   border-radius: 10px;
 }
-.lg-round {
+.md-round {
   border-radius: 15px;
 }
-.md-round {
+.lg-round {
   border-radius: 20px;
 }
 .full-round {

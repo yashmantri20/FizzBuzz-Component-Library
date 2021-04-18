@@ -1,6 +1,6 @@
 {
   "name": "fizzbuzz-ui",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "It is a component library",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

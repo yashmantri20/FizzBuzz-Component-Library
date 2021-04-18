@@ -1,9 +1,8 @@
-import "./scrollToTop.css";
-import React from "react";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import './ScrollToTop.css';
+import React from 'react';
+import { AiOutlineArrowUp } from 'react-icons/ai';
 
 export const ScrollTop = ({ bg, children, ...rest }) => {
-
   const style = {};
   Object.assign(style, { ...rest }.style);
 
@@ -13,15 +12,15 @@ export const ScrollTop = ({ bg, children, ...rest }) => {
     });
   }
 
-  const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+  const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   const scrollFunction = () => {
     if (
       document.body.scrollTop > 20 ||
       document.documentElement.scrollTop > 20
     ) {
-      document.querySelector(".topButton").style.visibility = "visible";
+      document.querySelector('.topButton').style.visibility = 'visible';
     } else {
-      document.querySelector(".topButton").style.visibility = "hidden";
+      document.querySelector('.topButton').style.visibility = 'hidden';
     }
   };
 
@@ -35,8 +34,8 @@ export const ScrollTop = ({ bg, children, ...rest }) => {
   return (
     <button
       onClick={scrollToTop}
-      className="topButton"
-      title="Go to top"
+      className='topButton'
+      title='Go to top'
       {...rest}
       style={style}
     >
@@ -46,5 +45,5 @@ export const ScrollTop = ({ bg, children, ...rest }) => {
 };
 
 ScrollTop.defaultProps = {
-  bg: "",
+  bg: '',
 };

@@ -18,6 +18,7 @@
 
 .alert-title {
   font-size: 16px;
+  margin: 16px 8px 16px 0px !important;
   font-weight: bolder;
 }
 .alert-box > * {

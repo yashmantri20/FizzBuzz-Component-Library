@@ -9,19 +9,19 @@ export const Alert = ({ status, variant, title, text, children, ...rest }) => {
 
   switch (status) {
     case 'info':
-      statusIcon = <FcInfo size={24} color="#3182CE" />;
+      statusIcon = <FcInfo size={24} color='#3182CE' />;
       break;
 
     case 'success':
-      statusIcon = <AiFillCheckCircle size={24} color="#38A169" />;
+      statusIcon = <AiFillCheckCircle size={24} color='#38A169' />;
       break;
 
     case 'warning':
-      statusIcon = <MdError size={24} color="#DD6B20" />;
+      statusIcon = <MdError size={24} color='#DD6B20' />;
       break;
 
     case 'error':
-      statusIcon = <MdError size={24} color="#E53E3E" />;
+      statusIcon = <MdError size={24} color='#E53E3E' />;
       break;
 
     default:
@@ -31,7 +31,7 @@ export const Alert = ({ status, variant, title, text, children, ...rest }) => {
   return (
     <div className={`alert-box ${status}-alert-${variant}`} {...rest}>
       {children ? children : statusIcon}
-      <span className="alert-title">{title}</span>
+      <span className='alert-title'>{title}</span>
       <p>{text}</p>
     </div>
   );
@@ -40,6 +40,6 @@ export const Alert = ({ status, variant, title, text, children, ...rest }) => {
 Alert.defaultProps = {
   status: 'success',
   variant: 'solid',
-  title: 'Your browser is outdated!',
+  title: '',
   text: 'Your FizzBuzz experience may be degraded.',
 };
