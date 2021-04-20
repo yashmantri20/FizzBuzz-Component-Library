@@ -13,13 +13,14 @@ const stories = storiesOf('Library', module);
 
 stories.add('FizzBuzz', () => {
   return (
-    <div>
+    <div style={{ overflow: 'auto', width: '400px', height: '500px' }}>
+
       <ScrollTop style={{ backgroundColor: 'red' }} />
       <Spinner
         size='lg'
         style={{ width: '40px', height: '40px', color: 'red' }}
       />
-      <Progress />
+      <Progress value='120' />
       <Avatar
         src='https://picsum.photos/200/300'
         style={{ marginRight: '15px' }}

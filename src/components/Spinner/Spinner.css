@@ -1,7 +1,7 @@
 .loader {
   animation: loader 0.8s infinite linear;
   border: 0.14rem solid currentColor;
-  border-right-color: transparent;
+  border-right-color: transparent !important;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;

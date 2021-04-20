@@ -7,7 +7,7 @@ export const Progress = ({ value, bg, type, ...rest }) => {
       <div
         className={`progress-${type}`}
         style={{
-          width: `${value}%`,
+          width: value <= 100 ? `${value}%` : '100%',
           backgroundColor: bg,
         }}
       ></div>
