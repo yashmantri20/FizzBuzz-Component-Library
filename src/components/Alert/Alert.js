@@ -32,7 +32,7 @@ export const Alert = ({ status, variant, title, text, children, ...rest }) => {
     <div className={`alert-box ${status}-alert-${variant}`} {...rest}>
       {children ? children : statusIcon}
       <span className='alert-title'>{title}</span>
-      <p>{text}</p>
+      <p className='alert-desc'>{text}</p>
     </div>
   );
 };

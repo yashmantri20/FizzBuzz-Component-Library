@@ -13,7 +13,7 @@ const stories = storiesOf('Library', module);
 
 stories.add('FizzBuzz', () => {
   return (
-    <div style={{ overflow: 'auto', width: '400px', height: '500px' }}>
+    <div >
 
       <ScrollTop style={{ backgroundColor: 'red' }} />
       <Spinner

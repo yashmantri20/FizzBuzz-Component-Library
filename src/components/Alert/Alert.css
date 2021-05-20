@@ -21,6 +21,11 @@
   margin: 16px 8px 16px 0px !important;
   font-weight: bolder;
 }
+
+.alert-desc {
+  margin: 16px 8px 16px 0px !important;
+}
+
 .alert-box > * {
   margin-right: 0.5rem;
 }
